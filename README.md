@@ -1,16 +1,55 @@
-# wealth_wise
+# 💰 Wealth Wise
 
-A new Flutter project.
+**Wealth Wise** is a modern cryptocurrency tracking and trading app built with Flutter. It provides real-time market data, interactive candlestick charts, and simulated buy/sell functionality using Firebase as the backend.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- 📈 **Live Crypto Market Data**: Fetches a list of cryptocurrencies from a public API.
+- 🕯️ **Interactive Candle Charts**: View detailed candlestick charts for:
+    - 1 Day
+    - 1 Week
+    - 1 Month
+    - 6 Months
+    - 1 Year
+- 🛒 **Buy & Sell Coins**: Simulated trading experience with local Firebase storage (no real transactions).
+- 🔥 **Clean UI/UX**: Designed for speed, usability, and intuitive navigation.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠 Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter** – Frontend framework
+- **Firebase** – Local database for buy/sell records
+- **REST API** – For fetching coin data and charting information
+- **GetX** – (optional) for state management
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🔧 Getting Started
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/your-username/wealth_wise.git
+   cd wealth_wise
+   ```
+
+2. **Install dependencies**
+   ```bash
+   flutter pub get
+   ```
+
+3. **Set up Firebase**
+    - Add your `google-services.json` (Android) and `GoogleService-Info.plist` (iOS)
+    - Enable Firestore or Realtime Database as needed
+
+4. **Run the app**
+   ```bash
+   flutter run
+   ```
+
+## 📚 Resources
+
+- [Flutter Documentation](https://docs.flutter.dev/)
+- [Flutter Cookbook](https://docs.flutter.dev/cookbook)
+- [Firebase for Flutter](https://firebase.flutter.dev/)
+
+## 🧑‍💻 Author
+
+**Abdulmanan**  
+Mobile Developer at Aylvah Software House
